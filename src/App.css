@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22px;
+}
+.recipe-img{
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+}
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: 400px 400px 400px 400px; 
+  justify-items: center;
+  align-items: center;
+  grid-gap: 25px;
+  padding: 45px 45px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.search-box{
+  height: 30px;
+  min-width: 150px;
+  border: 2px solid #121111;
+  border-radius: 5px;
+  margin-right: 15px;
+  padding: 5px 5px;
+}
+
+.recipe-nm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
